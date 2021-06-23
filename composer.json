@@ -1,0 +1,28 @@
+{
+    "name": "kapilpaul/dc-woocommerce-bought-together",
+    "description": "WooCommerce Bought Together plugin is the best choice for implementing this feature into your website.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Kapil Paul",
+            "email": "kapilpaul007@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.1 || ^0.5 || ^0.6.2 || ^0.7",
+        "phpcompatibility/phpcompatibility-wp": "dev-master",
+        "phpunit/phpunit": ">=5.7.27",
+        "automattic/vipwpcs": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "DCoders\\BoughtTogether\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
